@@ -2,7 +2,7 @@ const express = require ('express');
 const { appendFile } = require('fs');
 const path = require('path');
 var router = express.Router();
-const moviescontrollers = require('../controllers/moviescontrollers')
+let moviescontrollers = require('../controllers/moviescontrollers')
 const app = express()
 
 

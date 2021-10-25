@@ -1,6 +1,7 @@
 const db = require('../database/models/Movie');
 
 
+
 let moviescontrollers = {
     list: function(req, res) {
 db.movies.findAll()

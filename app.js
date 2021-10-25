@@ -9,6 +9,7 @@ app.listen(3000, () => {
 })
 
 app.set('view engine', 'ejs')
+app.set('views', "./listadoDePeliculas")
 
 app.use (express.static(path.resolve(__dirname, './public')))
 
